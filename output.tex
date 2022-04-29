@@ -1,0 +1,16 @@
+\documentclass{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{tikz}
+\setlength\parindent{0pt}
+\renewcommand{\familydefault}{\ttdefault}
+\begin{document}
+\begin{tikzpicture}
+\draw[draw=black] (0,0) rectangle (8,9);
+\filldraw[draw=black, fill=red] (6,6) rectangle (7,7);
+\filldraw[draw=black, fill=red] (6,7) rectangle (8,9);
+\filldraw[draw=black, fill=red] (5,0) rectangle (8,1);
+\filldraw[draw=black, fill=red] (3,1) rectangle (7,5);
+\filldraw[draw=black, fill=red] (0,0) rectangle (3,5);
+\filldraw[draw=black, fill=red] (0,5) rectangle (6,9);
+\end{tikzpicture}
+\end{document}
